@@ -63,7 +63,7 @@ describe('Swagger Inline', () => {
             done();
         }).catch(done);
     });
-    
+
     it('merges extracted schemes into the base swagger', (done) => {
         swaggerInline(`${projectDir}/*.js`, { base: baseJSONPath }).then((json) => {
             const outputJSON = JSON.parse(json);
