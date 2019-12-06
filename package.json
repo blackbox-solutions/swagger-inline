@@ -1,5 +1,5 @@
 {
-  "name": "swagger-inline",
+  "name": "@boxid/swagger-inline",
   "version": "1.0.6",
   "description": "Generate your swagger files from inline swagger comments.",
   "main": "build/index.js",
